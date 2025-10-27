@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #9747FF;
+}
+
+p {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+
+    display: block;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+}
