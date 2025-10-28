@@ -32,7 +32,8 @@ p {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    margin-top: 24px;
+    margin: 24px auto 0;
+    width: 792px;
 }
 
 a {
@@ -51,9 +52,50 @@ a {
     margin: 40px auto;
 }
 
+a:hover {
+    background-color: #8233E8;
+}
+
 section img {
     display: block;
     width: 792px;
     height: 446px;
     margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    header img {
+        margin-top: 65px;
+        margin-left: 60px;
+    }
+
+    p {
+        width: 648px;
+    }
+}
+
+@media(max-width: 375px) {
+    header img {
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        width: 340px;
+    }
+
+    section img {
+        width: 340px;
+        height: 230px;
+    }
+
+    a {
+        font-size: 20px;
+        width: 251px;
+    }
 }
