@@ -27,7 +27,7 @@ To run this project on your local machine only need open page index.html in brow
 
 Made with ❤️ by **Robert Garcia**!
 
-* **LinkedIn:** https://www.linkedin.com/in/robert-garcia-37a346199/
+* **LinkedIn:** https://www.linkedin.com/in/robertgarciacode/
 * **GitHub:** https://github.com/robertgarciacode
 
 ## 📄 License
